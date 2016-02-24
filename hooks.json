@@ -1,0 +1,7 @@
+[
+  {
+    "id": "test",
+    "execute-command": "pwd",
+    "command-working-directory": "/"
+  }
+]
