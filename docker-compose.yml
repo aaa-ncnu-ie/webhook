@@ -1,0 +1,6 @@
+webhook:
+  build: .
+  ports:
+    - '9000:9000'
+  volumes:
+    - '.:/go/src/app'
