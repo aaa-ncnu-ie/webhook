@@ -2,6 +2,7 @@
   {
     "id": "test",
     "execute-command": "pwd",
-    "command-working-directory": "/"
+    "command-working-directory": "/",
+    "response-message": "I got the payload!"
   }
 ]

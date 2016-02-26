@@ -1,0 +1,6 @@
+---
+applications:
+  - name: webhook
+    memory: 256M
+    instances: 1
+    command: app -port $PORT -hooks hooks.json -verbose
