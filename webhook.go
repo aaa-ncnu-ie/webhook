@@ -12,12 +12,12 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/adnanh/webhook/hook"
+	"app/Godeps/_workspace/src/github.com/adnanh/webhook/hook"
 
-	"github.com/codegangsta/negroni"
-	"github.com/gorilla/mux"
+	"app/Godeps/_workspace/src/github.com/codegangsta/negroni"
+	"app/Godeps/_workspace/src/github.com/gorilla/mux"
 
-	fsnotify "gopkg.in/fsnotify.v1"
+	fsnotify "app/Godeps/_workspace/src/gopkg.in/fsnotify.v1"
 )
 
 const (

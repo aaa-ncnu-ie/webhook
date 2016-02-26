@@ -14,7 +14,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/adnanh/webhook/hook"
+	"app/Godeps/_workspace/src/github.com/adnanh/webhook/hook"
 )
 
 func TestWebhook(t *testing.T) {
